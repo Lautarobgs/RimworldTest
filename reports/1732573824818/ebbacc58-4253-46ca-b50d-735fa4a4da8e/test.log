@@ -1,0 +1,28 @@
+[2024-11-25 10:30:27] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-11-25 10:30:27] [1] [INFO] TEST [RimworldTest - deleteUser] STARTED at [19:30:27 2024-11-25]
+[2024-11-25 10:30:27] [1] [ERROR] TEST [RimworldTest - deleteUser] SKIPPED at [19:30:27 2024-11-25] - Method com.rimworld.carina.demo.DBSampleTest.deleteUser() on instance com.rimworld.carina.demo.DBSampleTest@4136b193 depends on not successfully finished methods 
+[com.rimworld.carina.demo.DBSampleTest.updateUser() on instance com.rimworld.carina.demo.DBSampleTest@4136b193]
+
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:829)
+org.testng.TestRunner.run(TestRunner.java:602)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+org.testng.SuiteRunner.run(SuiteRunner.java:330)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+org.testng.TestNG.runSuites(TestNG.java:1099)
+org.testng.TestNG.run(TestNG.java:1067)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+[2024-11-25 10:30:27] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2024-11-25 10:30:27] [1] [INFO] RESULT #1: TEST [RimworldTest - createUser] FAIL [log=file://C:\Users\lauta\Desktop\Prog\Proyectos\RimworldTest\RimworldTest\.\reports\1732573824818/76f12d24-27cd-4fb7-bc25-ecc7248c134e/test.log]
+[2024-11-25 10:30:27] [1] [INFO] RESULT #2: TEST [RimworldTest - createUserPreference] SKIP [log=file://C:\Users\lauta\Desktop\Prog\Proyectos\RimworldTest\RimworldTest\.\reports\1732573824818/f7a7fb7f-998c-44e3-a8cd-4e544be9f0be/test.log]
+[2024-11-25 10:30:27] [1] [INFO] RESULT #3: TEST [RimworldTest - updateUser] SKIP [log=file://C:\Users\lauta\Desktop\Prog\Proyectos\RimworldTest\RimworldTest\.\reports\1732573824818/d5ce816b-5b57-4ac3-8d10-f4d0b4b904b4/test.log]
+[2024-11-25 10:30:27] [1] [INFO] RESULT #4: TEST [RimworldTest - deleteUser] SKIP [log=file://C:\Users\lauta\Desktop\Prog\Proyectos\RimworldTest\RimworldTest\.\reports\1732573824818/ebbacc58-4253-46ca-b50d-735fa4a4da8e/test.log]

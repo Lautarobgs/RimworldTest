@@ -1,0 +1,21 @@
+
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+f
+6src/test/java/com/rimworld/carina/demo/HelloWorld.java,b\e\be5c5315323499eb50ed396392c2da0ac7b1ceec
+h
+8src/test/java/com/rimworld/carina/demo/AmazonS3Test.java,3\b\3b3d40c18a5e85a4e33b347401963c6e839b1840
+€
+Psrc/test/java/com/rimworld/carina/demo/regression/attachfile/AttachFileTest.java,a\9\a9deaa716ca8ce5a602f8ddc3879095c71c630d9
+l
+<src/test/java/com/rimworld/carina/demo/AutoDownloadTest.java,3\b\3b687d4788ff92b6d3f6788d796cce013d3933b0
+h
+8src/test/java/com/rimworld/carina/demo/DBSampleTest.java,a\c\ac861b39ba40e4a7689a071c60b57a23b5bad3bc
+q
+Asrc/test/java/com/rimworld/carina/demo/WebLocalizationSample.java,f\7\f78e0a3f58017b1cd66ae07fdb9c9e87a55c8f8d
+i
+9src/test/java/com/rimworld/carina/demo/WebSampleTest.java,2\5\25d2380a1a25d368c947c23d442ec99bb640c11a
+q
+Asrc/test/java/com/rimworld/carina/demo/WebSampleSingleDriver.java,3\6\36ee61e8b702ebd93f5df7130169072bf126e7d1
+r
+Bsrc/test/java/com/rimworld/carina/demo/WebMultipleBrowserTest.java,8\7\87ffc12de8114fec160c3fd8fbe4e342f7af9489
