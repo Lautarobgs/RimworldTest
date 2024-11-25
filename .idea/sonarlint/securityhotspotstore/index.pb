@@ -19,3 +19,5 @@ q
 Asrc/test/java/com/rimworld/carina/demo/WebSampleSingleDriver.java,3\6\36ee61e8b702ebd93f5df7130169072bf126e7d1
 r
 Bsrc/test/java/com/rimworld/carina/demo/WebMultipleBrowserTest.java,8\7\87ffc12de8114fec160c3fd8fbe4e342f7af9489
+i
+9src/test/java/com/rimworld/carina/demo/APISampleTest.java,4\b\4bd5b84ed67f2635b8c284e15e8653f3dc56f977

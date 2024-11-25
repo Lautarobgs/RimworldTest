@@ -1,0 +1,370 @@
+[2024-11-25 10:36:32] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-11-25 10:36:32] [1] [INFO] TEST [RimworldTest - testCreateUser] STARTED at [19:36:32 2024-11-25]
+[2024-11-25 10:36:32] [1] [INFO] test
+[2024-11-25 10:36:32] [1] [INFO] Base properties loaded: api/users/user.properties
+[2024-11-25 10:36:32] [1] [INFO] Base properties loaded: api/users/user.properties
+[2024-11-25 10:36:33] [1] [INFO] Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+[
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "hjikiqqu",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "lojrpqqu",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    }
+]
+HTTP/1.1 201 Created
+Date: Mon, 25 Nov 2024 22:36:33 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 573
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1732574193&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=bJuavjlpuQFZbLnrw97rayMpaIrRmUiB62rqwR17pGg%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1732574193&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=bJuavjlpuQFZbLnrw97rayMpaIrRmUiB62rqwR17pGg%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1732574208
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: https://jsonplaceholder.typicode.com/users/11
+X-Content-Type-Options: nosniff
+Etag: W/"23d-67KQ6uqYvPY8ExhZI1LGeDcb4Zw"
+Via: 1.1 vegur
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 8e851e426a80e5e9-IAD
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=170973&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3116&recv_bytes=1441&delivery_rate=26454&cwnd=33&unsent_bytes=0&cid=e45638f1a61ffb84&ts=265&x=0"
+
+{
+    "0": {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "hjikiqqu",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "lojrpqqu",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    },
+    "id": 11
+}
+
+[2024-11-25 10:36:35] [1] [INFO] Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+[
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "hjikiqqu",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "lojrpqqu",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    }
+]
+HTTP/1.1 201 Created
+Date: Mon, 25 Nov 2024 22:36:34 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 573
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1732574194&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=dJ8eYudjB0NSW2wt4Ev32cEyO6ssukgMF6%2BtWLmDvfo%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1732574194&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=dJ8eYudjB0NSW2wt4Ev32cEyO6ssukgMF6%2BtWLmDvfo%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 998
+X-Ratelimit-Reset: 1732574208
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: https://jsonplaceholder.typicode.com/users/11
+X-Content-Type-Options: nosniff
+Etag: W/"23d-67KQ6uqYvPY8ExhZI1LGeDcb4Zw"
+Via: 1.1 vegur
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 8e851e4c7d660a0b-IAD
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=166923&sent=5&recv=7&lost=0&retrans=0&sent_bytes=3115&recv_bytes=1441&delivery_rate=26233&cwnd=33&unsent_bytes=0&cid=4a12df52eba89f0c&ts=202&x=0"
+
+{
+    "0": {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "hjikiqqu",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "lojrpqqu",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    },
+    "id": 11
+}
+
+[2024-11-25 10:36:37] [1] [INFO] Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+[
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "hjikiqqu",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "lojrpqqu",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    }
+]
+HTTP/1.1 201 Created
+Date: Mon, 25 Nov 2024 22:36:36 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 573
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1732574196&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=M3R83diOS%2BLIcOIOZiTqogt9NdwC9nVAvAc3Y%2BVuhdY%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1732574196&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=M3R83diOS%2BLIcOIOZiTqogt9NdwC9nVAvAc3Y%2BVuhdY%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 997
+X-Ratelimit-Reset: 1732574208
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: https://jsonplaceholder.typicode.com/users/11
+X-Content-Type-Options: nosniff
+Etag: W/"23d-67KQ6uqYvPY8ExhZI1LGeDcb4Zw"
+Via: 1.1 vegur
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 8e851e564dcf41b2-EWR
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=164665&sent=5&recv=7&lost=0&retrans=0&sent_bytes=3116&recv_bytes=1441&delivery_rate=26571&cwnd=33&unsent_bytes=0&cid=fe9a0b2ef42d7191&ts=216&x=0"
+
+{
+    "0": {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "hjikiqqu",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "lojrpqqu",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    },
+    "id": 11
+}
+
+[2024-11-25 10:36:38] [1] [INFO] Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+[
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "hjikiqqu",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "lojrpqqu",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    }
+]
+HTTP/1.1 201 Created
+Date: Mon, 25 Nov 2024 22:36:37 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 573
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1732574197&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=A%2B3rTqgDZkdGYoWPALW9zDq7Tr3Wt7bfktaHAXviW6w%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1732574197&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=A%2B3rTqgDZkdGYoWPALW9zDq7Tr3Wt7bfktaHAXviW6w%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 996
+X-Ratelimit-Reset: 1732574208
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: https://jsonplaceholder.typicode.com/users/11
+X-Content-Type-Options: nosniff
+Etag: W/"23d-67KQ6uqYvPY8ExhZI1LGeDcb4Zw"
+Via: 1.1 vegur
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: 8e851e602ecdc9bd-IAD
+alt-svc: h3=":443"; ma=86400
+server-timing: cfL4;desc="?proto=TCP&rtt=170101&sent=5&recv=7&lost=0&retrans=0&sent_bytes=3115&recv_bytes=1441&delivery_rate=26165&cwnd=33&unsent_bytes=0&cid=839d0d79d42894ea&ts=199&x=0"
+
+{
+    "0": {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "hjikiqqu",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "lojrpqqu",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    },
+    "id": 11
+}
+
+[2024-11-25 10:36:38] [1] [INFO] TEST [RimworldTest - testCreateUser] PASSED at [19:36:38 2024-11-25]
