@@ -1,0 +1,9 @@
+[2024-11-28 03:18:44] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-11-28 03:18:44] [1] [INFO] TEST [RimworldTest - testSearchBar] STARTED at [12:18:44 2024-11-28]
+[2024-11-28 03:18:44] [1] [INFO] Starting driver session...
+[2024-11-28 03:18:45] [1] [INFO] Driver session started.
+[2024-11-28 03:18:46] [1] [INFO] INFO: opening url 'https://rimworldwiki.com'
+[2024-11-28 03:18:49] [1] [INFO] PASS: element 'searchBar' is clicked.
+[2024-11-28 03:18:49] [1] [INFO] PASS: keys 'Guide' are sent to element 'searchBar'.
+[2024-11-28 03:18:50] [1] [INFO] PASS: element 'searchButton' is clicked.
+[2024-11-28 03:18:53] [1] [INFO] TEST [RimworldTest - testSearchBar] PASSED at [12:18:53 2024-11-28]

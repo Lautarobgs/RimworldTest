@@ -1,7 +1,0 @@
-[2024-11-28 12:40:21] [1] [WARN] Reporting disabled: using no op test run registrar
-[2024-11-28 12:40:21] [1] [INFO] TEST [RimworldTest - testSearchBar] STARTED at [21:40:21 2024-11-27]
-[2024-11-28 12:40:21] [1] [INFO] Starting driver session...
-[2024-11-28 12:40:23] [1] [INFO] Driver session started.
-[2024-11-28 12:40:26] [1] [INFO] PASS: element 'searchBar' is clicked.
-[2024-11-28 12:40:26] [1] [INFO] PASS: keys 'Selenium Testing' are sent to element 'searchBar'.
-[2024-11-28 12:40:27] [1] [INFO] TEST [RimworldTest - testSearchBar] PASSED at [21:40:27 2024-11-27]

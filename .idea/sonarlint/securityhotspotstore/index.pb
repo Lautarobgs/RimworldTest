@@ -57,3 +57,9 @@ t
 Dsrc/main/java/com/rimworld/carina/demo/utils/MobileContextUtils.java,2\7\271de9fe3d7f744e4ec6ae9f0fd0a48fef026a8b
 s
 Csrc/main/java/com/rimworld/carina/demo/websocket/EndpointUtils.java,d\2\d22ea8119f2928866e08ebc29411d5144194b71f
+j
+:src/test/java/com/rimworld/carina/demo/SoapSampleTest.java,d\8\d8021e453a739cf4ec2c98b6f40e5a5854cef8a5
+…
+Usrc/main/java/com/rimworld/carina/demo/gui/pages/common/RimworldSearchresultPage.java,1\a\1ad2225978d437bb55586f321d64f10db54453ca
+~
+Nsrc/main/java/com/rimworld/carina/demo/gui/pages/common/RimworldGuidePage.java,7\0\70e5c153ed31e844c5fadb104347528711a8b19d

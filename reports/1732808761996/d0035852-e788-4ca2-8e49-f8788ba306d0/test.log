@@ -1,0 +1,11 @@
+[2024-11-28 03:46:04] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-11-28 03:46:04] [1] [INFO] TEST [RimworldTest - testCheckButtons] STARTED at [12:46:04 2024-11-28]
+[2024-11-28 03:46:04] [1] [INFO] Starting driver session...
+[2024-11-28 03:46:05] [1] [INFO] Driver session started.
+[2024-11-28 03:46:05] [1] [INFO] INFO: opening url 'https://rimworldwiki.com'
+[2024-11-28 03:46:09] [1] [INFO] PASS: element 'searchBar' is clicked.
+[2024-11-28 03:46:09] [1] [INFO] PASS: keys 'Guide' are sent to element 'searchBar'.
+[2024-11-28 03:46:10] [1] [INFO] PASS: element 'searchButton' is clicked.
+[2024-11-28 03:46:15] [1] [INFO] PASS: element 'checkNs0' is clicked.
+[2024-11-28 03:46:15] [1] [INFO] PASS: element 'checkNs2' is clicked.
+[2024-11-28 03:46:15] [1] [INFO] TEST [RimworldTest - testCheckButtons] PASSED at [12:46:15 2024-11-28]
