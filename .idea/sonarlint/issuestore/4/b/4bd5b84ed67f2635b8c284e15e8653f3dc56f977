@@ -1,9 +1,5 @@
 
-`	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(¹ßõğÿÿÿÿÿ
-`	java:S1125"FDefine and throw a dedicated exception instead of using a generic one.(§§–Šşÿÿÿÿ
-u
-java:S1192%"ZDefine a constant instead of duplicating this literal "api/users/user.properties" 3 times.(›¦”ÿÿÿÿÿ
-‡
-java:S1130!"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¹ßõğÿÿÿÿÿ
-‡
-java:S11305"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(§§–Šşÿÿÿÿ
+­
+java:S1130!"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(¹ßõğÿÿÿÿÿJ$c8eec68c-5363-47c9-8a32-53d7245743ca
+­
+java:S11305"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(§§–ŠşÿÿÿÿJ$2f55c775-6f7d-4577-ab92-032480d9572e

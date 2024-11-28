@@ -1,4 +1,0 @@
-[2024-11-25 10:41:38] [1] [WARN] Reporting disabled: using no op test run registrar
-[2024-11-25 10:41:38] [1] [INFO] TEST [RimworldTest - helloWorld] STARTED at [19:41:38 2024-11-25]
-[2024-11-25 10:41:38] [1] [INFO] Hello World!
-[2024-11-25 10:41:38] [1] [INFO] TEST [RimworldTest - helloWorld] PASSED at [19:41:38 2024-11-25]
