@@ -19,7 +19,7 @@ public class RimworldHomePageTest implements IAbstractTest {
 
     @Test
     @MethodOwner(owner = "lauta")
-    public void testSearchBar() throws MalformedURLException {
+    public void testSearchBar() {
         WebDriver driver = getDriver();
 
         // Abre la homepage
@@ -40,7 +40,7 @@ public class RimworldHomePageTest implements IAbstractTest {
         Assert.assertFalse(resultsPage.isCheckNs0Checked(), "Checkbox ns0 debería estar desactivado.");
         Assert.assertTrue(resultsPage.isCheckNs2Checked(), "Checkbox ns2 debería estar activado.");
 
-        // Haz clic en el primer resultado y navega a la guía
+        // Hace clic en el primer resultado y navega a la guía
         RimworldGuidePage guidePage = resultsPage.clickFirstResult();
         Assert.assertTrue(guidePage.isPageLoaded(), "La página de la guía se cargó correctamente.");
         // Verifica que la página de la guía se cargue correctamente

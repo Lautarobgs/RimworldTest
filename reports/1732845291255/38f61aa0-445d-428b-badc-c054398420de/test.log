@@ -1,0 +1,185 @@
+[2024-11-29 01:54:53] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-11-29 01:54:53] [1] [INFO] TEST [RimworldTest - testGetUsers] STARTED at [22:54:53 2024-11-28]
+[2024-11-29 01:54:55] [1] [INFO] Request method:	GET
+Request URI:	https://opentdb.com/api.php?amount=10
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 29 Nov 2024 01:54:55 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Access-Control-Allow-Origin: *
+Set-Cookie: PHPSESSID=68ffa57946d17a16c7d7b731a66f813a; path=/
+Upgrade: h2
+Connection: Upgrade, Keep-Alive
+Vary: User-Agent
+Strict-Transport-Security: max-age=31536000
+Keep-Alive: timeout=5, max=100
+Transfer-Encoding: chunked
+Content-Type: application/json
+PHPSESSID=68ffa57946d17a16c7d7b731a66f813a;Path=/
+{
+    "response_code": 0,
+    "results": [
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Entertainment: Television",
+            "question": "What is the surname of the character Daryl in AMC&#039;s show The Walking Dead?",
+            "correct_answer": "Dixon",
+            "incorrect_answers": [
+                "Grimes",
+                "Dickinson",
+                "Dicketson"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "What 1970&#039;s American ballad referred to the 1959 plane crash as the &quot;the day the music died&quot;?",
+            "correct_answer": "American Pie",
+            "incorrect_answers": [
+                "Kentucky Rain",
+                "I Will Always Love You",
+                "Rock &#039;n&#039; Roll Suicide"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "Entertainment: Video Games",
+            "question": "There are 6 legendary cards in &quot;Clash Royale&quot;.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "Science &amp; Nature",
+            "question": "Salt is 100% composed of Sodium.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "When did the Crisis of the Third Century begin?",
+            "correct_answer": "235 AD",
+            "incorrect_answers": [
+                "235 BC",
+                "242 AD",
+                "210 AD"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Video Games",
+            "question": "What was the release date of &quot;Grand Theft Auto IV&quot;?",
+            "correct_answer": "April 29, 2008",
+            "incorrect_answers": [
+                "May 21, 2009",
+                "June 22, 2010",
+                "July 28, 2008"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Entertainment: Video Games",
+            "question": "What block in Minecraft has the highest blast resistance?",
+            "correct_answer": "Barrier",
+            "incorrect_answers": [
+                "Obsidian",
+                "Bedrock",
+                "Block of Diamond"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Music",
+            "question": "Which of these is NOT the name of an album released by English singer-songwriter Adele?",
+            "correct_answer": "12",
+            "incorrect_answers": [
+                "19",
+                "21",
+                "25"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Entertainment: Music",
+            "question": "Which lyric is about Red Hot Chili Peppers frontman Anthony Kiedis?",
+            "correct_answer": "&quot;A rainy Lithuanian / Is dancing as an Indian&quot;",
+            "incorrect_answers": [
+                "&quot;Fly away on, my zephyr / I feel it more than ever&quot;",
+                "&quot;And I liked the dimple in your chin / Your pale blue eyes&quot;",
+                "&quot;You used to be so warm and affectionate...but now you&#039;re quick to get into your regret&quot;"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Entertainment: Music",
+            "question": "Who designed the album cover for True Romance, an album by Estelle?",
+            "correct_answer": "Rebecca Sugar",
+            "incorrect_answers": [
+                "Matt Burnett",
+                "Ian Jones Quartey",
+                "Ben Leven"
+            ]
+        }
+    ]
+}
+
+[2024-11-29 01:54:55] [1] [INFO] JSON schema of version below or equal to draft-04 was detected
+[2024-11-29 01:54:56] [1] [ERROR] TEST [RimworldTest - testGetUsers] FAILED at [22:54:56 2024-11-28] - Validation against Json schema failed: 
+[]: instance type (object) does not match any allowed primitive type (allowed: ["array"])
+
+
+com.zebrunner.carina.api.apitools.validation.JsonValidator.validateJsonAgainstSchemaV3V4(JsonValidator.java:121)
+com.zebrunner.carina.api.apitools.validation.JsonValidator.validateJsonAgainstSchema(JsonValidator.java:67)
+com.zebrunner.carina.api.AbstractApiMethodV2.validateResponseAgainstSchema(AbstractApiMethodV2.java:388)
+com.rimworld.carina.demo.GetTriviaTest.testGetUsers(GetTriviaTest.java:17)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:829)
+org.testng.TestRunner.run(TestRunner.java:602)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+org.testng.SuiteRunner.run(SuiteRunner.java:330)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+org.testng.TestNG.runSuites(TestNG.java:1099)
+org.testng.TestNG.run(TestNG.java:1067)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)

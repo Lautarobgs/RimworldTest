@@ -1,0 +1,154 @@
+[2024-11-29 01:58:19] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-11-29 01:58:19] [1] [INFO] TEST [RimworldTest - testGetUsers] STARTED at [22:58:19 2024-11-28]
+[2024-11-29 01:58:21] [1] [INFO] Request method:	GET
+Request URI:	https://opentdb.com/api.php?amount=10
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 29 Nov 2024 01:58:21 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Access-Control-Allow-Origin: *
+Set-Cookie: PHPSESSID=9c2965577cf9d4cb6430c23ec669ba67; path=/
+Upgrade: h2
+Connection: Upgrade, Keep-Alive
+Vary: User-Agent
+Strict-Transport-Security: max-age=31536000
+Keep-Alive: timeout=5, max=100
+Transfer-Encoding: chunked
+Content-Type: application/json
+PHPSESSID=9c2965577cf9d4cb6430c23ec669ba67;Path=/
+{
+    "response_code": 0,
+    "results": [
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "Entertainment: Video Games",
+            "question": "Doki Doki Literature Club was developed in Japan.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Entertainment: Music",
+            "question": "What is the name of the main character from the music video of &quot;Shelter&quot; by Porter Robinson and A-1 Studios?",
+            "correct_answer": "Rin",
+            "incorrect_answers": [
+                "Rem",
+                "Ren",
+                "Ram"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "Animals",
+            "question": "A slug&rsquo;s blood is green.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "General Knowledge",
+            "question": "How many calories are in a 355 ml can of Pepsi Cola?",
+            "correct_answer": "150",
+            "incorrect_answers": [
+                "200",
+                "100",
+                "155"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "In relation to the British Occupation in Ireland, what does the IRA stand for.",
+            "correct_answer": "Irish Republican Army",
+            "incorrect_answers": [
+                "Irish Rebel Alliance",
+                "Irish Reformation Army",
+                "Irish-Royal Alliance"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Entertainment: Music",
+            "question": "What is the name of the 2016 studio album by the French electronic music duo Justice?",
+            "correct_answer": "Woman",
+            "incorrect_answers": [
+                "Randy",
+                "Safe and Sound",
+                "Pleasure"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Entertainment: Television",
+            "question": "The first half-hour CGI cartoon, ReBoot, aired on which year?",
+            "correct_answer": "1994",
+            "incorrect_answers": [
+                "1993",
+                "1998",
+                "1999"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Entertainment: Video Games",
+            "question": "Which stage was planned to be a part of &quot;Sonic the Hedgehog 2&quot;, but was scrapped during development?",
+            "correct_answer": "Genocide City Zone",
+            "incorrect_answers": [
+                "Stardust Speedway Zone",
+                "Sky High Zone ",
+                "Clockwork Zone"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Entertainment: Japanese Anime &amp; Manga",
+            "question": "Which animation studio animated &quot;Hidamari Sketch&quot;?",
+            "correct_answer": "Shaft",
+            "incorrect_answers": [
+                "Trigger",
+                "Kyoto Animation",
+                "Production I.G"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Entertainment: Japanese Anime &amp; Manga",
+            "question": "In the &quot;Toaru Majutsu no Index&quot; anime, Touma Kamijou is a level 0 esper that has the ability to do what?",
+            "correct_answer": "Dispell any esper or magical powers",
+            "incorrect_answers": [
+                "Teleport",
+                "Make telepathic communications",
+                "Create electricity from his own body"
+            ]
+        }
+    ]
+}
+
+[2024-11-29 01:58:21] [1] [WARN] JSON schema version can not be detected
+[2024-11-29 01:58:21] [1] [INFO] Validation against Json schema successfully passed
+[2024-11-29 01:58:21] [1] [INFO] TEST [RimworldTest - testGetUsers] PASSED at [22:58:21 2024-11-28]

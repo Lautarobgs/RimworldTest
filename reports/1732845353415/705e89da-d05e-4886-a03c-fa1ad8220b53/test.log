@@ -1,0 +1,185 @@
+[2024-11-29 01:55:56] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-11-29 01:55:56] [1] [INFO] TEST [RimworldTest - testGetUsers] STARTED at [22:55:56 2024-11-28]
+[2024-11-29 01:55:58] [1] [INFO] Request method:	GET
+Request URI:	https://opentdb.com/api.php?amount=10
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 29 Nov 2024 01:55:57 GMT
+Server: Apache
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Access-Control-Allow-Origin: *
+Set-Cookie: PHPSESSID=7de70f72787f38536a6de9e031744bf5; path=/
+Upgrade: h2
+Connection: Upgrade, Keep-Alive
+Vary: User-Agent
+Strict-Transport-Security: max-age=31536000
+Keep-Alive: timeout=5, max=100
+Transfer-Encoding: chunked
+Content-Type: application/json
+PHPSESSID=7de70f72787f38536a6de9e031744bf5;Path=/
+{
+    "response_code": 0,
+    "results": [
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Art",
+            "question": "What year did Albrecht D&uuml;rer create the painting &quot;The Young Hare&quot;?",
+            "correct_answer": "1502",
+            "incorrect_answers": [
+                "1702",
+                "1402",
+                "1602"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Entertainment: Video Games",
+            "question": "How many voice channels does the Nintendo Entertainment System support natively?",
+            "correct_answer": "5",
+            "incorrect_answers": [
+                "4",
+                "6",
+                "3"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Science &amp; Nature",
+            "question": "What is the scientific term for &#039;taste&#039;?",
+            "correct_answer": "Gustatory Perception",
+            "incorrect_answers": [
+                "Olfaction",
+                "Somatosensation",
+                "Auditory Perception"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "Entertainment: Television",
+            "question": "The &quot;Psycho&quot; series of videos on YouTube was created by which of the following?",
+            "correct_answer": "RiDGiD STUDiOS",
+            "incorrect_answers": [
+                "Dan Bell",
+                "Billy Familia",
+                "VeganGainz"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "General Knowledge",
+            "question": "A pasodoble is a type of Italian pasta sauce.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "History",
+            "question": "After his loss at the Battle of Waterloo, Napoleon Bonaparte was exiled to which island?",
+            "correct_answer": "St. Helena",
+            "incorrect_answers": [
+                "Elba",
+                "Corsica",
+                "Canary"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Entertainment: Cartoon &amp; Animations",
+            "question": "Who played Stan&#039;s dog in the South Park episode &quot;Big Gay Al&#039;s Big Gay Boat Ride&quot;?",
+            "correct_answer": "George Clooney",
+            "incorrect_answers": [
+                "Jay Leno",
+                "Matt Stone",
+                "Robert Smith"
+            ]
+        },
+        {
+            "type": "boolean",
+            "difficulty": "easy",
+            "category": "Entertainment: Video Games",
+            "question": "&quot;Undertale&quot; is an RPG created by Toby Fox and released in 2015.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Geography",
+            "question": "The following Spanish provinces are located in the northern area of Spain except:",
+            "correct_answer": "Murcia",
+            "incorrect_answers": [
+                "Asturias",
+                "Navarre",
+                "Le&oacute;n"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Entertainment: Video Games",
+            "question": "In the National Pokedex what number is Porygon-Z?",
+            "correct_answer": "474",
+            "incorrect_answers": [
+                "376",
+                "432",
+                "589"
+            ]
+        }
+    ]
+}
+
+[2024-11-29 01:55:58] [1] [INFO] JSON schema of version below or equal to draft-04 was detected
+[2024-11-29 01:55:58] [1] [ERROR] TEST [RimworldTest - testGetUsers] FAILED at [22:55:58 2024-11-28] - Validation against Json schema failed: 
+[]: instance type (object) does not match any allowed primitive type (allowed: ["array"])
+
+
+com.zebrunner.carina.api.apitools.validation.JsonValidator.validateJsonAgainstSchemaV3V4(JsonValidator.java:121)
+com.zebrunner.carina.api.apitools.validation.JsonValidator.validateJsonAgainstSchema(JsonValidator.java:67)
+com.zebrunner.carina.api.AbstractApiMethodV2.validateResponseAgainstSchema(AbstractApiMethodV2.java:388)
+com.rimworld.carina.demo.GetTriviaTest.testGetUsers(GetTriviaTest.java:17)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:829)
+org.testng.TestRunner.run(TestRunner.java:602)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+org.testng.SuiteRunner.run(SuiteRunner.java:330)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+org.testng.TestNG.runSuites(TestNG.java:1099)
+org.testng.TestNG.run(TestNG.java:1067)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
