@@ -1,0 +1,7 @@
+[2024-12-02 09:11:14] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-12-02 09:11:14] [1] [INFO] TEST [RimworldTest - testEdit] STARTED at [18:11:14 2024-12-02]
+[2024-12-02 09:11:14] [1] [INFO] Starting driver session...
+[2024-12-02 09:11:16] [1] [INFO] Driver session started.
+[2024-12-02 09:11:16] [1] [INFO] INFO: opening url 'https://rimworldwiki.com'
+[2024-12-02 09:11:22] [1] [INFO] PASS: element 'searchButton' is clicked.
+[2024-12-02 09:11:22] [1] [INFO] TEST [RimworldTest - testEdit] PASSED at [18:11:22 2024-12-02]

@@ -33,7 +33,7 @@ public class RimworldWikiTest2 implements IAbstractTest {
         Assert.assertTrue(allValid, "Some dates are not in the valid format.");
     }
 
-    
+
     public boolean isValidFormat(String input) {
         // Regex
         String regex = "\\d{2}:\\d{2}, \\d{1,2} [A-Za-z]+ \\d{4}";
