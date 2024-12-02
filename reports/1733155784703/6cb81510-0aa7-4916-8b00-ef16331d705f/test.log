@@ -1,0 +1,10 @@
+[2024-12-02 04:09:47] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-12-02 04:09:47] [1] [ERROR] For some reason test method not found using reflection: verifyDates
+[2024-12-02 04:09:47] [1] [INFO] TEST [RimworldTest - verifyDates] STARTED at [13:09:47 2024-12-02]
+[2024-12-02 04:09:47] [1] [INFO] Starting driver session...
+[2024-12-02 04:09:48] [1] [INFO] Driver session started.
+[2024-12-02 04:09:48] [1] [INFO] INFO: opening url 'https://rimworldwiki.com'
+[2024-12-02 04:09:52] [1] [INFO] PASS: element 'viewHistory' is clicked.
+[2024-12-02 04:09:53] [1] [ERROR] For some reason test method not found using reflection: verifyDates
+[2024-12-02 04:09:53] [1] [INFO] TEST [RimworldTest - verifyDates] PASSED at [13:09:53 2024-12-02]
+[2024-12-02 04:09:53] [1] [ERROR] For some reason test method not found using reflection: verifyDates
