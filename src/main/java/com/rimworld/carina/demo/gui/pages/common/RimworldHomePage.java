@@ -1,5 +1,7 @@
 package com.rimworld.carina.demo.gui.pages.common;
 
+import com.rimworld.carina.demo.gui.pages.desktop.SearchResultPage;
+import com.rimworld.carina.demo.gui.pages.desktop.ViewHistoryPage;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
@@ -15,6 +17,8 @@ public abstract class RimworldHomePage extends AbstractPage {
     @FindBy(id = "searchButton")
     private ExtendedWebElement searchButton;
 
+    @FindBy(css = "#ca-history > a")
+    private ExtendedWebElement  viewHistory;
     public RimworldHomePage(WebDriver driver) {
         super(driver);
     }
@@ -29,6 +33,15 @@ public abstract class RimworldHomePage extends AbstractPage {
         return new RimworldSearchresultPage(driver); // Devuelve la página de resultados
     }
 
+    public SearchResultPage clickSearchButton2(){
+        searchButton.click();
+        return new SearchResultPage(driver);
+    }
+
+    public ViewHistoryPage clickHistory(){
+        viewHistory.click();
+        return new ViewHistoryPage(driver);
+    }
     @Override
     public void open() {
         super.open();
