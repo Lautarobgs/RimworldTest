@@ -1,0 +1,10 @@
+[2024-12-02 09:53:49] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-12-02 09:53:49] [1] [ERROR] For some reason test method not found using reflection: checkSource
+[2024-12-02 09:53:49] [1] [INFO] TEST [RimworldTest - checkSource] STARTED at [18:53:49 2024-12-02]
+[2024-12-02 09:53:49] [1] [INFO] Starting driver session...
+[2024-12-02 09:53:51] [1] [INFO] Driver session started.
+[2024-12-02 09:53:51] [1] [INFO] INFO: opening url 'https://rimworldwiki.com'
+[2024-12-02 09:53:55] [1] [INFO] PASS: element 'viewSourceLink' is clicked.
+[2024-12-02 09:53:56] [1] [ERROR] For some reason test method not found using reflection: checkSource
+[2024-12-02 09:53:56] [1] [INFO] TEST [RimworldTest - checkSource] PASSED at [18:53:56 2024-12-02]
+[2024-12-02 09:53:56] [1] [ERROR] For some reason test method not found using reflection: checkSource

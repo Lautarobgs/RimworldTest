@@ -1,0 +1,7 @@
+[2024-12-02 09:16:03] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-12-02 09:16:03] [1] [INFO] TEST [RimworldTest - testEdit] STARTED at [18:16:03 2024-12-02]
+[2024-12-02 09:16:03] [1] [INFO] Starting driver session...
+[2024-12-02 09:16:05] [1] [INFO] Driver session started.
+[2024-12-02 09:16:05] [1] [INFO] INFO: opening url 'https://rimworldwiki.com'
+[2024-12-02 09:16:12] [1] [INFO] PASS: element 'materialsLink' is clicked.
+[2024-12-02 09:16:12] [1] [INFO] TEST [RimworldTest - testEdit] PASSED at [18:16:12 2024-12-02]

@@ -1,5 +1,7 @@
 package com.rimworld.carina.demo.gui.pages.common;
 
+import com.rimworld.carina.demo.gui.pages.desktop.RimworldMaterialsPage;
+import com.rimworld.carina.demo.gui.pages.desktop.RimworldSourcePage;
 import com.rimworld.carina.demo.gui.pages.desktop.SearchResultPage;
 import com.rimworld.carina.demo.gui.pages.desktop.ViewHistoryPage;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
@@ -19,6 +21,13 @@ public abstract class RimworldHomePage extends AbstractPage {
 
     @FindBy(css = "#ca-history > a")
     private ExtendedWebElement  viewHistory;
+
+    @FindBy(css = "a[title='Materials']")
+    private ExtendedWebElement materialsLink;
+
+    @FindBy(css = "a[title^='This page is protected.'][accesskey='e']")
+    private ExtendedWebElement viewSourceLink;
+
     public RimworldHomePage(WebDriver driver) {
         super(driver);
     }
@@ -26,6 +35,11 @@ public abstract class RimworldHomePage extends AbstractPage {
     public void typeInSearchBar(String query) {
         searchBar.click();
         searchBar.type(query);
+    }
+
+    public RimworldSourcePage clickSourcePage(){
+        viewSourceLink.click();
+        return new RimworldSourcePage(driver);
     }
 
     public RimworldSearchresultPage clickSearchButton() {
@@ -41,6 +55,11 @@ public abstract class RimworldHomePage extends AbstractPage {
     public ViewHistoryPage clickHistory(){
         viewHistory.click();
         return new ViewHistoryPage(driver);
+    }
+
+    public RimworldMaterialsPage clickMaterials() {
+        materialsLink.click();
+        return new RimworldMaterialsPage(driver); // Devuelve la página de resultados
     }
     @Override
     public void open() {
