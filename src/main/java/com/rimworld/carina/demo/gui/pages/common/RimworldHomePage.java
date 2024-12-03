@@ -1,9 +1,6 @@
 package com.rimworld.carina.demo.gui.pages.common;
 
-import com.rimworld.carina.demo.gui.pages.desktop.RimworldMaterialsPage;
-import com.rimworld.carina.demo.gui.pages.desktop.RimworldSourcePage;
-import com.rimworld.carina.demo.gui.pages.desktop.SearchResultPage;
-import com.rimworld.carina.demo.gui.pages.desktop.ViewHistoryPage;
+import com.rimworld.carina.demo.gui.pages.desktop.*;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
@@ -27,6 +24,15 @@ public abstract class RimworldHomePage extends AbstractPage {
 
     @FindBy(css = "a[title^='This page is protected.'][accesskey='e']")
     private ExtendedWebElement viewSourceLink;
+
+    @FindBy(css = "a[title='Drafting']")
+    private ExtendedWebElement draftingLink;
+
+    @FindBy(css = "a[title='Rituals']")
+    private ExtendedWebElement ritualsLink;
+
+    @FindBy(css = "a[title='Body parts']")
+    private ExtendedWebElement bodyPartsLink;
 
     public RimworldHomePage(WebDriver driver) {
         super(driver);
@@ -60,6 +66,21 @@ public abstract class RimworldHomePage extends AbstractPage {
     public RimworldMaterialsPage clickMaterials() {
         materialsLink.click();
         return new RimworldMaterialsPage(driver); // Devuelve la página de resultados
+    }
+
+    public RimworldDraftingPage clickDrafting(){
+        draftingLink.click();
+        return new RimworldDraftingPage(driver);
+    }
+
+    public RimWorldRitualsPage clickRituals(){
+        ritualsLink.click();
+        return new RimWorldRitualsPage(driver);
+    }
+
+    public RimworldBodyPartsPage clickBodyParts(){
+        bodyPartsLink.click();
+        return new RimworldBodyPartsPage(driver);
     }
     @Override
     public void open() {
