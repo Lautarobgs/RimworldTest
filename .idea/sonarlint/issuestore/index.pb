@@ -109,3 +109,9 @@ Wsrc/main/java/com/rimworld/carina/demo/gui/pages/desktop/RimworldTalkMaterialsP
 Psrc/main/java/com/rimworld/carina/demo/gui/pages/desktop/RimworldSourcePage.java,c\1\c14ede7690532b5fa372297a003ae10339552ae5
 y
 Isrc/test/java/com/rimworld/carina/demo/PageOpeningStrategySampleTest.java,7\1\71ea80238de021655ed0fe8e9908b77acee02487
+z
+Jsrc/test/java/com/rimworld/carina/demo/rimworldtest/RimworldWikiTest5.java,5\7\57339a5d451fdf38f4c81b2eee1f63b68fe9c716
+z
+Jsrc/test/java/com/rimworld/carina/demo/rimworldtest/RimworldWikiTest6.java,0\2\0285fe2e207c183d1624336270e333a07d2ba9d9
+z
+Jsrc/test/java/com/rimworld/carina/demo/rimworldtest/RimworldWikiTest7.java,3\2\32dcc6e195d0bed6b8c23aa43b831c0ba351e1f5

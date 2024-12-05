@@ -1,5 +1,7 @@
 
 |
-java:S5993"9Change the visibility of this constructor to "protected".(ÛÁ“8ô«ßÊ¸2J$db9f72dc-fba9-4686-904e-ccc55201b08f
+java:S5993%"9Change the visibility of this constructor to "protected".(ÛÁ“8ô«ßÊ¸2J$db9f72dc-fba9-4686-904e-ccc55201b08f
 p
-java:S1185A"(Remove this method to simply inherit it.(”ª…Œÿÿÿÿÿ8ø«ßÊ¸2J$b1dac85f-6759-459a-a00d-9457c588ba73
+java:S1185V"(Remove this method to simply inherit it.(”ª…Œÿÿÿÿÿ8ø«ßÊ¸2J$b1dac85f-6759-459a-a00d-9457c588ba73
+]
+java:S1128";Remove this unused import 'org.openqa.selenium.WebElement'.(‰ïµ”şÿÿÿÿ8³¿Èã¸2

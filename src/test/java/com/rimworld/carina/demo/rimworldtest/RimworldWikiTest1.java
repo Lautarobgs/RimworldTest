@@ -6,38 +6,47 @@ import com.zebrunner.carina.core.IAbstractTest;
 import com.zebrunner.carina.core.registrar.ownership.MethodOwner;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.util.List;
 
 public class RimworldWikiTest1 implements IAbstractTest {
-    @Test
+    @DataProvider(name = "searchQueries")
+    public Object[][] provideSearchQueries() {
+        return new Object[][]{
+                {"armors"},
+                {"weapons"},
+                {"colonists"}
+        };
+    }
+
+    @Test(dataProvider = "searchQueries")
     @MethodOwner(owner = "lauta")
-    public void verifyWordinSearch(){
+    public void verifyWordinSearch(String searchQuery) {
         WebDriver driver = getDriver();
 
-        // Abre la homepage
+        // Opening homepage
         RimworldHomePage homePage = new RimworldHomePage(driver) {};
         homePage.open();
 
-        // Escribe una consulta en la barra de búsqueda
-        String searchQuery = "armor"; // Palabra a buscar
+        // Using searchbar
         homePage.typeInSearchBar(searchQuery);
         SearchResultPage results = homePage.clickSearchButton2();
 
-        // Obtiene los textos de los resultados de búsqueda
+        // Obtaining texts from search results
         List<String> resultsValue = results.getSearchResults();
 
-        // Optional
-        //resultsValue.forEach(System.out::println);
+        resultsValue.forEach(System.out::println);
 
-        // Verifica si todos los textos contienen la palabra
+        // Verifying if all texts contain the word
         boolean allContainWord = resultsValue.stream()
                 .allMatch(result -> containsWord(result, searchQuery));
 
-        // Assert para comprobar la condición
-        Assert.assertTrue(allContainWord, "Not all search results contain the word 'armor'.");
+        // Assert
+        Assert.assertTrue(allContainWord, "Not all search results contain the word '" + searchQuery + "'.");
     }
+
     public boolean containsWord(String text, String word) {
         return text != null && word != null && text.toLowerCase().contains(word.toLowerCase());
     }

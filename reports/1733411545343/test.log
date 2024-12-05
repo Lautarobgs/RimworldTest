@@ -1,0 +1,26 @@
+[2024-12-05 03:12:25] [1] [INFO] 
+============= Basic configuration =============
+env=DEMO
+=========== Encryptor configuration ===========
+crypto_key_value=*****
+=========== WebDriver configuration ===========
+url=https://rimworldwiki.com
+selenium_url=http://localhost:4444
+auto_screenshot=true
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+browserName=chrome
+===============================================
+
+[2024-12-05 03:12:25] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-12-05 03:12:27] [1] [INFO] [TestNG] Running:
+  C:\Users\lauta\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+[2024-12-05 03:12:27] [1] [INFO] Set thread-count=1
+[2024-12-05 03:12:27] [1] [INFO] Set data-provider-thread-count=1
+[2024-12-05 03:12:27] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2024-12-05 03:12:56] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2024-12-05 03:12:56] [1] [INFO] RESULT #1: TEST [RimworldTest - verifyDatesWithDataProvider [L01]] PASS [screenshots=file://C:\Users\lauta\Desktop\Prog\Proyectos\RimworldTest\RimworldTest\.\reports\1733411545343/f38d9b9e-c276-4d1e-b66f-a758093d959a/report.html | log=file://C:\Users\lauta\Desktop\Prog\Proyectos\RimworldTest\RimworldTest\.\reports\1733411545343/f38d9b9e-c276-4d1e-b66f-a758093d959a/test.log]
+[2024-12-05 03:12:56] [1] [INFO] RESULT #2: TEST [RimworldTest - verifyDatesWithDataProvider [L02]] FAIL [screenshots=file://C:\Users\lauta\Desktop\Prog\Proyectos\RimworldTest\RimworldTest\.\reports\1733411545343/16140b38-c96d-40bc-9c8d-8694dba3e88f/report.html | log=file://C:\Users\lauta\Desktop\Prog\Proyectos\RimworldTest\RimworldTest\.\reports\1733411545343/16140b38-c96d-40bc-9c8d-8694dba3e88f/test.log]
+[2024-12-05 03:12:56] [1] [INFO] RESULT #3: TEST [RimworldTest - verifyDatesWithDataProvider [L03]] FAIL [screenshots=file://C:\Users\lauta\Desktop\Prog\Proyectos\RimworldTest\RimworldTest\.\reports\1733411545343/41577000-adb2-4c3f-aaff-abc3e77c8a36/report.html | log=file://C:\Users\lauta\Desktop\Prog\Proyectos\RimworldTest\RimworldTest\.\reports\1733411545343/41577000-adb2-4c3f-aaff-abc3e77c8a36/test.log]
