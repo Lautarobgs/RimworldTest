@@ -34,6 +34,14 @@ public abstract class RimworldHomePage extends AbstractPage {
     @FindBy(css = "a[title='Body parts']")
     private ExtendedWebElement bodyPartsLink;
 
+    @FindBy(id = "pt-login")
+    private ExtendedWebElement LogInLink;
+
+    @FindBy(css = "#t-specialpages > a")
+    private ExtendedWebElement specialPageLink;
+
+
+
     public RimworldHomePage(WebDriver driver) {
         super(driver);
     }
@@ -81,6 +89,16 @@ public abstract class RimworldHomePage extends AbstractPage {
     public RimworldBodyPartsPage clickBodyParts(){
         bodyPartsLink.click();
         return new RimworldBodyPartsPage(driver);
+    }
+
+    public RimworldLogInPage clickLogin(){
+        LogInLink.click();
+        return new RimworldLogInPage(driver);
+    }
+
+    public RimworldSpecialPages clickSpecial(){
+        specialPageLink.click();
+        return new RimworldSpecialPages(driver);
     }
     @Override
     public void open() {
