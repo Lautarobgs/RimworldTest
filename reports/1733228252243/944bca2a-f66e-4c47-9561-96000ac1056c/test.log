@@ -1,9 +1,0 @@
-[2024-12-03 12:17:34] [1] [WARN] Reporting disabled: using no op test run registrar
-[2024-12-03 12:17:34] [1] [INFO] TEST [RimworldTest - verifyWordinSearch] STARTED at [09:17:34 2024-12-03]
-[2024-12-03 12:17:34] [1] [INFO] Starting driver session...
-[2024-12-03 12:17:37] [1] [INFO] Driver session started.
-[2024-12-03 12:17:37] [1] [INFO] INFO: opening url 'https://rimworldwiki.com'
-[2024-12-03 12:17:40] [1] [INFO] PASS: element 'searchBar' is clicked.
-[2024-12-03 12:17:41] [1] [INFO] PASS: keys 'armor' are sent to element 'searchBar'.
-[2024-12-03 12:17:43] [1] [INFO] PASS: element 'searchButton' is clicked.
-[2024-12-03 12:17:43] [1] [INFO] TEST [RimworldTest - verifyWordinSearch] PASSED at [09:17:43 2024-12-03]

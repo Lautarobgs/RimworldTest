@@ -38,7 +38,7 @@ public class WebLocalizationSample implements IAbstractTest {
         WikipediaHomePage wikipediaHomePage = new WikipediaHomePage(getDriver());
         wikipediaHomePage.open();
 
-        WikipediaLocalePage wikipediaLocalePage = wikipediaHomePage.goToWikipediaLocalePage(getDriver());
+        WikipediaLocalePage wikipediaLocalePage = wikipediaHomePage.goToWikipediaLocalePage();
 
         wikipediaLocalePage.clickMoreButton();
         wikipediaLocalePage.hoverContribElem();
@@ -54,7 +54,7 @@ public class WebLocalizationSample implements IAbstractTest {
         WikipediaHomePage wikipediaHomePage = new WikipediaHomePage(getDriver());
         wikipediaHomePage.open();
 
-        WikipediaLocalePage wikipediaLocalePage = wikipediaHomePage.goToWikipediaLocalePage(getDriver());
+        WikipediaLocalePage wikipediaLocalePage = wikipediaHomePage.goToWikipediaLocalePage();
 
         wikipediaLocalePage.hoverCreateAccountElem();
         wikipediaLocalePage.hoverWelcomeText();
@@ -76,7 +76,7 @@ public class WebLocalizationSample implements IAbstractTest {
         WikipediaHomePage wikipediaHomePage = new WikipediaHomePage(getDriver());
         wikipediaHomePage.open();
 
-        WikipediaLocalePage wikipediaLocalePage = wikipediaHomePage.goToWikipediaLocalePage(getDriver());
+        WikipediaLocalePage wikipediaLocalePage = wikipediaHomePage.goToWikipediaLocalePage();
 
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertTrue(wikipediaLocalePage.isWelcomeTextPresent());

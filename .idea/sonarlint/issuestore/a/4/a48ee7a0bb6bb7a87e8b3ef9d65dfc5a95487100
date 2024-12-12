@@ -1,7 +1,8 @@
 
+–	java:S116&"TRename this field "LogInLink" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îô8Ş¹‡à¹2J$a1f574b8-069f-4e55-a13b-48a9794d6835
 |
-java:S5993%"9Change the visibility of this constructor to "protected".(ÛÁ“8ô«ßÊ¸2J$db9f72dc-fba9-4686-904e-ccc55201b08f
+java:S5993-"9Change the visibility of this constructor to "protected".(ÛÁ“8ô«ßÊ¸2J$57868530-ee9c-4704-bed7-45c005aee01a
 p
-java:S1185V"(Remove this method to simply inherit it.(”ª…Œÿÿÿÿÿ8ø«ßÊ¸2J$b1dac85f-6759-459a-a00d-9457c588ba73
-]
-java:S1128";Remove this unused import 'org.openqa.selenium.WebElement'.(‰ïµ”şÿÿÿÿ8³¿Èã¸2
+java:S1185h"(Remove this method to simply inherit it.(”ª…Œÿÿÿÿÿ8ø«ßÊ¸2J$922c82ed-159d-4f16-8eb6-ff0267111f08
+ƒ
+java:S1128";Remove this unused import 'org.openqa.selenium.WebElement'.(‰ïµ”şÿÿÿÿ8³¿Èã¸2J$2a0a3983-dbe3-4a16-8863-d513e9a3b47a

@@ -4,6 +4,7 @@ import com.rimworld.carina.demo.gui.pages.common.RimworldHomePage;
 import com.rimworld.carina.demo.gui.pages.desktop.SearchResultPage;
 import com.zebrunner.carina.core.IAbstractTest;
 import com.zebrunner.carina.core.registrar.ownership.MethodOwner;
+import com.zebrunner.carina.utils.R;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -44,6 +45,7 @@ public class RimworldWikiTest1 implements IAbstractTest {
                 .allMatch(result -> containsWord(result, searchQuery));
 
         // Assert
+
         Assert.assertTrue(allContainWord, "Not all search results contain the word '" + searchQuery + "'.");
     }
 

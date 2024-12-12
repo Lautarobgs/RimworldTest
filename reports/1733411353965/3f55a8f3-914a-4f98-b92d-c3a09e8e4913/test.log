@@ -1,8 +1,0 @@
-[2024-12-05 03:09:36] [1] [INFO] TEST [RimworldTest - verifyWordinSearch [L03]] STARTED at [12:09:36 2024-12-05]
-[2024-12-05 03:09:36] [1] [INFO] Starting driver session...
-[2024-12-05 03:09:37] [1] [INFO] Driver session started.
-[2024-12-05 03:09:37] [1] [INFO] INFO: opening url 'https://rimworldwiki.com'
-[2024-12-05 03:09:40] [1] [INFO] PASS: element 'searchBar' is clicked.
-[2024-12-05 03:09:41] [1] [INFO] PASS: keys 'colonists' are sent to element 'searchBar'.
-[2024-12-05 03:09:43] [1] [INFO] PASS: element 'searchButton' is clicked.
-[2024-12-05 03:09:43] [1] [INFO] TEST [RimworldTest - verifyWordinSearch [L03]] PASSED at [12:09:43 2024-12-05]

@@ -1,0 +1,9 @@
+[2024-12-12 07:21:25] [1] [WARN] Reporting disabled: using no op test run registrar
+[2024-12-12 07:21:25] [1] [INFO] TEST [RimworldTest - testOpenRimworldHomePage] STARTED at [16:21:25 2024-12-12]
+[2024-12-12 07:21:25] [1] [WARN] Override property for current test 'capabilities.app=C:\Users\lauta\Desktop\Prog\takoboto.apk'!
+[2024-12-12 07:21:25] [1] [INFO] Starting driver session...
+[2024-12-12 07:21:26] [1] [ERROR] Failed to attach artifact reference 'app' to test run because it has not been started yet.
+[2024-12-12 07:21:33] [1] [INFO] Driver session started.
+[2024-12-12 07:21:34] [1] [INFO] PASS: element 'searchBar' is clicked.
+[2024-12-12 07:21:37] [1] [INFO] PASS: keys 'hello' are sent to element 'searchBar'.
+[2024-12-12 07:21:38] [1] [INFO] TEST [RimworldTest - testOpenRimworldHomePage] PASSED at [16:21:38 2024-12-12]

@@ -24,7 +24,7 @@ public class WikipediaHomePage extends AbstractPage {
         setPageAbsoluteURL("https://www.wikipedia.org/");
     }
 
-    public WikipediaLocalePage goToWikipediaLocalePage(WebDriver driver) {
+    public WikipediaLocalePage goToWikipediaLocalePage() {
         openLangList();
         if (!langList.isEmpty()) {
             for (ExtendedWebElement languageBtn : langList) {
