@@ -4,6 +4,7 @@ out/
 !**/src/test/**/out/
 
 # Ignore directories
+reports/
 target/
 logs/
 .idea/
