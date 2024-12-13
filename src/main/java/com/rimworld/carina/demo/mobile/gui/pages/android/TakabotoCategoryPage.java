@@ -27,4 +27,9 @@ public class TakabotoCategoryPage extends MobileAbstractPage implements IMobileU
     public boolean isOpened() {
         return false;
     }
+
+    public String getHiraganaCategoryText() {
+        return hiraganaCategory.getText();
+    }
+
 }
