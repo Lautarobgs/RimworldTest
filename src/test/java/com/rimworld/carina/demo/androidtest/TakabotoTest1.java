@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class TakabotoTest1 implements IAbstractTest {
     @Test
     public void testOpenRimworldHomePage() {
-        R.CONFIG.put("capabilities.app", "C:\\Users\\lauta\\Desktop\\Prog\\takoboto.apk",true);
+        R.CONFIG.put("capabilities.app", "D:\\LABA\\Automation\\APK\\takoboto-1.9.8.apk",true);
         TakabotoMain homePage = new TakabotoMain(getDriver());
         String textToFind = "hello";  // El texto que estamos buscando
         homePage.enterWordinSearchbar(textToFind);
@@ -23,4 +23,6 @@ public class TakabotoTest1 implements IAbstractTest {
 
         Assert.assertTrue(true);
     }
+    // D:\LABA\Automation\APK\takoboto-1.9.8.apk
+    // C:\Users\lauta\Desktop\Prog\takoboto.apk
 }

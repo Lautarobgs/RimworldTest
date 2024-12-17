@@ -17,10 +17,35 @@ public class TakabotoCategoryPage extends MobileAbstractPage implements IMobileU
     @FindBy(xpath = "//android.widget.TextView[@text='Hiragana\n71 words']")
     private ExtendedWebElement hiraganaCategory;
 
+    @FindBy(xpath = "//android.widget.TextView[@text=\"ONLINE\"]")
+    private ExtendedWebElement onlineTextView;
+
+    @FindBy(id = "jp.takoboto:id/wordsListsOnlineSubscribeLayout")
+    private ExtendedWebElement subscribedMembersMessage;
+
+    @FindBy(id = "jp.takoboto:id/wordsListsOnlineSubscribeOkGotItButton")
+    private ExtendedWebElement hideButton;
+
     public TakabotoHiraganaPage gotoHiraganaCat(){
         officialTextView.click();
         hiraganaCategory.click();
         return new TakabotoHiraganaPage(driver);
+    }
+
+    public TakabotoCategoryPage clickOnlineTextView() {
+        onlineTextView.click();
+
+        return new TakabotoCategoryPage(driver);
+    }
+
+    public TakabotoCategoryPage clickOnlineHideButton() {
+        hideButton.click();
+
+        return new TakabotoCategoryPage(driver);
+    }
+
+    public boolean subscribedMembersPanelHasDisappeared() {
+        return subscribedMembersMessage.isElementPresent();
     }
 
     @Override

@@ -26,6 +26,9 @@ public class TakabotoMain extends MobileAbstractPage implements IAndroidUtils {
 
     private ExtendedWebElement titleTextView;
 
+    @FindBy(id = "jp.takoboto:id/MainMenuGameAction")
+    private ExtendedWebElement studyGame;
+
 
     public TakabotoMain(WebDriver driver) {
         super(driver);
@@ -61,6 +64,13 @@ public class TakabotoMain extends MobileAbstractPage implements IAndroidUtils {
         titleTextView.click();
         return new TakabotoAddWordPage(driver);
     }
+
+    public TakabotoStudyGamePage goToStudyGamePage() {
+        studyGame.click();
+
+        return new TakabotoStudyGamePage(driver);
+    }
+
     @Override
     public boolean isOpened() {
         return false;
